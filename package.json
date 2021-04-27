@@ -1,0 +1,17 @@
+{
+  "name": "wizeline-challenge",
+  "version": "1.0.0",
+  "description": "Wizeline code challenge  ",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/test --reporter html:Report.html",
+    "test-all-edge": "testcafe edge ./page_model/test --reporter html:Report.html",
+    "test-all-firefox": "testcafe firefox ./page_model/test --reporter html:Report.html"
+  },
+  "author": "Hector Mares",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
